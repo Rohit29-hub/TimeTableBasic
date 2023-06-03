@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/* Main header */
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#imgg{
+    width: 110px;
+    margin-bottom: 10px;
+}
+.con{
+    font-family: system-ui;
+}
+.optionsClasses > #items{
+    width: 170px;
+    height: 30px;
+    outline: none;
+}
+
+/*  */
+
+.head {
+    background: rgb(160, 160, 160);
+    height: 47px;
+}
+
+.inHead {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(160, 160, 160);
+    text-align: center;
+}
+
+.tag {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.body-container{
+    margin: 5px 5px;
+}
+
+#branch::before{
+    content: 'BRANCH :- ';
+}
+#semester::before{
+    content: 'SEMESTER :- ';
+}
+#section::before{
+    content: 'SECTION :- ';
+}
+
